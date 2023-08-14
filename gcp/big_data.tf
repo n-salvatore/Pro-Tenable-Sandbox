@@ -25,3 +25,5 @@ resource "google_bigquery_dataset" "dataset" {
     role          = "READER"
   }
 }
+
+
