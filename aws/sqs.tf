@@ -24,3 +24,4 @@ resource "aws_sqs_queue" "analytics_sqs_queue" {
   name                    = "terraform-analytics-queue"
   sqs_managed_sse_enabled = "0"
 }
+
