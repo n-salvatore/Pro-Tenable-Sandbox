@@ -244,4 +244,5 @@ resource "aws_instance" "jenkins_server" {
   tags = {
     name = "${local.resource_prefix.value}-jenkins-server"
   }
+
 }
